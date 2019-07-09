@@ -17,13 +17,13 @@ android {
     buildTypes {
         debug {
             buildConfigField "String", "API_KEY", '"33c227f799464dac08f60f1b0d5770"'
-            buildConfigField "String", "NPM", '"16670009"'
+            buildConfigField "String", "NPM", '"16670007"'
         }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             buildConfigField "String", "API_KEY", '"33c227f799464dac08f60f1b0d5770"'
-            buildConfigField "String", "NPM", '"16670009"'
+            buildConfigField "String", "NPM", '"16670007"'
 
 
         }

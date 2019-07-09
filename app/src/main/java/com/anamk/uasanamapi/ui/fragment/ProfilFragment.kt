@@ -79,7 +79,7 @@ class ProfilFragment : Fragment() {
         alamat_kos = view.tvalamat_kos
         ayah = view.tvayah
         ibu = view.tvibu
-        npmTexView.text = "16670009"
+        npmTexView.text = "16670007"
 
         getDatas()
 

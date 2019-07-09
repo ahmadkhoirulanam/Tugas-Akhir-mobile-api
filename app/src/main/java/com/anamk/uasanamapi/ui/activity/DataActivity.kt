@@ -17,7 +17,7 @@ class DataActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        tvNameAplikationID.text = BuildConfig.APPLICATION_ID
+        //tvNameAplikationID.text = BuildConfig.APPLICATION_ID
 
         val adapter = FragmentPagerItemAdapter(
             supportFragmentManager, FragmentPagerItems.with(this)

@@ -18,7 +18,7 @@ import rx.schedulers.Schedulers
 
 /**
  * A simple [Fragment] subclass.
- * Generate by iav
+ * Generate by anam
  */
 class JadwalKuliahFragment : Fragment() {
     private var items: ArrayList<DataItemModel> = arrayListOf()

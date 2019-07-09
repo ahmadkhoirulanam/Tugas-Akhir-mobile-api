@@ -3,7 +3,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical"
         tools:context=".ui.activity.DetailJadwalActivity">
 
@@ -21,28 +21,44 @@
                         android:layout_height="36dp"
                         tools:ignore="VectorDrawableCompat"
                         android:visibility="gone"/>
-                <LinearLayout android:layout_width="match_parent"
-                              android:layout_height="match_parent"
-                              android:orientation="vertical"
-                              android:layout_marginBottom="4dp">
+                <LinearLayout
+                        android:background="@drawable/h"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:orientation="vertical">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/ivImageProfile"
+                            android:layout_marginLeft="8dp"
+                            android:layout_width="130dp"
+                            android:layout_height="150dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/icona"
+                            app:civ_border_width="5dp"
+                            app:civ_border_color="#FFFF"/>
                     <TextView
                             android:textStyle="bold"
                             android:layout_gravity="center_vertical"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textColor="@android:color/black"
+                            android:textColor="#ffff"
                             android:gravity="center"
                             android:textSize="18dp"
                             android:id="@+id/tvNamaDosen"
                             android:text="Nama Dosen"/>
                     <TextView
+                            android:textStyle="bold"
                             android:layout_gravity="center_vertical"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
+                            android:textSize="15dp"
+                            android:textColor="#ffff"
                             android:id="@+id/tvNamaMataKuliah"
                             android:text="Nama Mata Kuliah"/>
                 </LinearLayout>
+
+
             </LinearLayout>
 
             <LinearLayout
